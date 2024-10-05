@@ -9,7 +9,7 @@ setInterval(()=>{
  m.innerHTML=(d.getMinutes()<10?"0":"")+d.getMinutes();
  s.innerHTML=(d.getSeconds()<10?"0":"")+d.getSeconds();
 },1000);
-var days=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
 let d=document.getElementById("date");
 let d1= new Date();
